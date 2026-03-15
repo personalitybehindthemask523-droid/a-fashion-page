@@ -1,0 +1,42 @@
+  * {
+      font-family: "Roboto", sans-serif;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  span {
+      font-family: "Bebas Neue", sans-serif;
+  }
+
+  .button-linear-gradient {
+
+      background: linear-gradient(180deg,
+              rgba(164, 188, 70, 1) 0%,
+              rgba(133, 160, 25, 1) 100%);
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+
+  /* laptop-device */
+  @media screen and (min-width: 768px) {}
+
+  /* tablet-device */
+  @media screen and (min-width: 576px) and (max-width: 767px) {}
+
+
+
+  /* android-device landscape */
+  @media screen and (min-width: 360px) and (max-width: 575px) {}
+
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {}
+
+
+  /* android-device landscape */
+  @media screen and (min-width: 360px) and (max-width: 575px) {}
+
+  /* android-device potraite  */
+  @media screen and (min-width: 100px) and (max-width: 700px) {}
